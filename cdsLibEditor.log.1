@@ -1,0 +1,26 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 09/24/2018 21:03 (ip-172-18-22-224) $
+\o Sub version:		sub-version  p015 
+\o Arguments:		-cdslib /home/linux/ieng6/ee203fa21/ee203fa21be/cds.lib -mpssession virtuoso28398 -mpshost ieng6-ece-15.ucsd.edu 
+\o Working Directory:	ieng6-ece-15.ucsd.edu:/home/linux/ieng6/ee203fa21/ee203fa21be/Desktop/ece203/Proj/ECE203_Project
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(0 28 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 9 0)
+\o Active cell: 9 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 9 0 "ee203_example")
+\a nrListItemAction(cdsLibEditor->mainTable 9 1)
+\o Active cell: 9 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 9 1 "/home/linux/ieng6/ee203fa21/public/project_example")
+\a nrListItemAction(cdsLibEditor->mainTable 10 0)
+\o Active cell: 10 0 ""
+\o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
+\a nrSetWindowVisibility(needSaveDialog "show")
+\a nrSetCurrentWindow(needSaveDialog)
+\a nrResizeWindow(needSaveDialog list(56 157 369 136))
+\a nrResizeWindow(cdsLibEditor list(0 -9 500 400))
+\a needSaveDialog->yesButton->value = t
+\a exit(0)
