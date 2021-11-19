@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ee203fa21ax
+HostName                       ieng6-ece-02.ucsd.edu
+ProcessIdentifier              27003
+ProcessCreationTime_UTC        1637218152
+ProcessCreationTime_Readable   Wed Nov 17 22:49:12 2021 PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/linux/ieng6/ee203fa21/ee203fa21ax/ECE203_Project/Fully_diff_gm/symbol/symbol.oa.cdslck
+TimeEditLocked                 Wed Nov 17 22:54:30 2021 PST
