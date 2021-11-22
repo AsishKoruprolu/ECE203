@@ -1,0 +1,1 @@
+artistResMgrCalcExprSetup("false" "plot" "Power" "(VF("/out") / (VF("/vin1") - VF("/vin2")))")
