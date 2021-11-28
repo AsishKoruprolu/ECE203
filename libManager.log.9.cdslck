@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      ee203fa21ax
+HostName                       ieng6-ece-02.ucsd.edu
+ProcessIdentifier              16840
+ProcessCreationTime_UTC        1638075912
+ProcessCreationTime_Readable   Sat Nov 27 21:05:12 2021 PST
+AppIdentifier                  /software/ECE/IC-618/tools/dfII/bin/64bit/libManager
+OSType                         lnx86
+ReasonForPlacingEditLock       log file
+FilePathUsedToEditLock         /home/linux/ieng6/ee203fa21/ee203fa21ax/ECE203_Project/libManager.log.9
+TimeEditLocked                 Sat Nov 27 21:05:14 2021 PST
