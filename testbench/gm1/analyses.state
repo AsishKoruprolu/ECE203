@@ -59,7 +59,7 @@ analysis(ac options write) ""
 analysis(ac options writefinal) ""
 analysis(dc fields center) ""
 analysis(dc fields dec) ""
-analysis(dc fields designVar) "L_amp"
+analysis(dc fields designVar) "vcm"
 analysis(dc fields dev) ""
 analysis(dc fields deviceParam) ""
 analysis(dc fields enable) (t)
@@ -73,11 +73,11 @@ analysis(dc fields param) ""
 analysis(dc fields rangeType) "Start-Stop"
 analysis(dc fields saveOppoint) t
 analysis(dc fields span) ""
-analysis(dc fields start) "0.18u"
+analysis(dc fields start) "0.2"
 analysis(dc fields step) ""
 analysis(dc fields stepTypeLin) "Step Size"
 analysis(dc fields stepTypeLog) "Points Per Decade"
-analysis(dc fields stop) "1.2u"
+analysis(dc fields stop) "1.7"
 analysis(dc fields sweep) ""
 analysis(dc fields sweepChange) nil
 analysis(dc fields useDiscrete) nil

@@ -1,13 +1,13 @@
 savedComponent = (let
-(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13)
+(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
 (unless tmp1
 tmp1 = make_sevVariableStruct()
 )
 (unless tmp1
 tmp1 = (ncons nil)
 )
-tmp1->name = "vin_cm"
-tmp1->expression = "0"
+tmp1->name = "f_in"
+tmp1->expression = "5k"
 tmp1->index = 1
 (unless tmp2
 tmp2 = make_sevVariableStruct()
@@ -51,8 +51,8 @@ tmp6 = make_sevVariableStruct()
 (unless tmp6
 tmp6 = (ncons nil)
 )
-tmp6->name = "I_gm2"
-tmp6->expression = "150n"
+tmp6->name = "Cin"
+tmp6->expression = "20p"
 tmp6->index = 6
 (unless tmp7
 tmp7 = make_sevVariableStruct()
@@ -60,8 +60,8 @@ tmp7 = make_sevVariableStruct()
 (unless tmp7
 tmp7 = (ncons nil)
 )
-tmp7->name = "Vdd"
-tmp7->expression = "1.8"
+tmp7->name = "vin"
+tmp7->expression = "10m"
 tmp7->index = 7
 (unless tmp8
 tmp8 = make_sevVariableStruct()
@@ -69,8 +69,8 @@ tmp8 = make_sevVariableStruct()
 (unless tmp8
 tmp8 = (ncons nil)
 )
-tmp8->name = "f_in"
-tmp8->expression = "5K"
+tmp8->name = "p5vonly"
+tmp8->expression = "0"
 tmp8->index = 8
 (unless tmp9
 tmp9 = make_sevVariableStruct()
@@ -78,8 +78,8 @@ tmp9 = make_sevVariableStruct()
 (unless tmp9
 tmp9 = (ncons nil)
 )
-tmp9->name = "Cin"
-tmp9->expression = "20p"
+tmp9->name = "phires"
+tmp9->expression = "0"
 tmp9->index = 9
 (unless tmp10
 tmp10 = make_sevVariableStruct()
@@ -87,35 +87,8 @@ tmp10 = make_sevVariableStruct()
 (unless tmp10
 tmp10 = (ncons nil)
 )
-tmp10->name = "vin"
-tmp10->expression = "25m"
+tmp10->name = "Cf"
+tmp10->expression = "Cin/40"
 tmp10->index = 10
-(unless tmp11
-tmp11 = make_sevVariableStruct()
-)
-(unless tmp11
-tmp11 = (ncons nil)
-)
-tmp11->name = "p5vonly"
-tmp11->expression = "0"
-tmp11->index = 11
-(unless tmp12
-tmp12 = make_sevVariableStruct()
-)
-(unless tmp12
-tmp12 = (ncons nil)
-)
-tmp12->name = "phires"
-tmp12->expression = "0"
-tmp12->index = 12
-(unless tmp13
-tmp13 = make_sevVariableStruct()
-)
-(unless tmp13
-tmp13 = (ncons nil)
-)
-tmp13->name = "Cf"
-tmp13->expression = "Cin/60"
-tmp13->index = 13
-list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10 tmp11 tmp12 tmp13)
+list(tmp1 tmp2 tmp3 tmp4 tmp5 tmp6 tmp7 tmp8 tmp9 tmp10)
 )
