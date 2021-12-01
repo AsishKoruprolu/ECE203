@@ -70,7 +70,7 @@ tmp8 = make_sevVariableStruct()
 tmp8 = (ncons nil)
 )
 tmp8->name = "vin"
-tmp8->expression = "20m"
+tmp8->expression = "10m"
 tmp8->index = 8
 (unless tmp9
 tmp9 = make_sevVariableStruct()
@@ -124,7 +124,7 @@ tmp14 = make_sevVariableStruct()
 tmp14 = (ncons nil)
 )
 tmp14->name = "Cf"
-tmp14->expression = "Cin/60"
+tmp14->expression = "Cin/40"
 tmp14->index = 14
 (unless tmp15
 tmp15 = make_sevVariableStruct()

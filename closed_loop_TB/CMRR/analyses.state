@@ -161,7 +161,7 @@ analysis(xf fields dec) ""
 analysis(xf fields designVar) ""
 analysis(xf fields dev) ""
 analysis(xf fields deviceParam) ""
-analysis(xf fields enable) (t)
+analysis(xf fields enable) (nil)
 analysis(xf fields freq) ""
 analysis(xf fields incrType) "Automatic"
 analysis(xf fields lin) ""
